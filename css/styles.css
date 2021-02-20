@@ -59,14 +59,17 @@ nav li a{
     font-weight: bold;
     text-decoration: none;
 }
+
 header li a span{
     display: inline-block;
     vertical-align: middle;
     line-height: normal;
 }
+
 header li a:hover{
     background-color: #333;
 }
+
 .news-container{
     margin-top: 60px;
     width: 100%;
@@ -107,8 +110,6 @@ header li a:hover{
 	*display:inline;
     margin: 20px auto;
     zoom:1;
-    /* padding: 5%;
-    border-bottom: 1px solid black; */
 }
 
 .title a{

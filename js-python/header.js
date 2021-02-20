@@ -6,17 +6,15 @@ class Header extends HTMLElement {
 
     connectedCallback(){
         this.innerHTML = `
-            <div>
-                <div class="pg-bar" id="topBar">
-                    <p>Newschain</p>
-                </div>
-                <div class="pg-bar" id="navBar">
+            <header>
+                <h1><img src= "/images/newsdraft.PNG" alt="Logo"></h1>
+                <nav>
                     <ul>
-                        <li><a href="#home">Home</a></li>
-                        <li><a href="html/submit.html">Submit an Article</a></li>
+                        <li><a href="/index.html"><span>Home</span></a></li>
+                        <li><a href="/html/submit.html"><span>Submit an Article</span></a></li>
                     </ul>
-                </div>
-            </div>;
+                </nav>
+            </header>
             `
     }
 }
