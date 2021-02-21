@@ -5,9 +5,9 @@ load_home(myVar);
 
 function load_home(data){
     let read = 0;
-    for(let i = 0; i < data.length - 1; i++){
-        for(let j = 0; j < data[i]["articles"].length; j++){
-            let article = data[i]["articles"][j]["text"];
+    for(let i = 1; i < data["blocks"].length; i++){
+        for(let j = 0; j < data["blocks"][i]["articles"].length; j++){
+            let article = data["blocks"][i]["articles"][j]["text"];
             let col;
             switch(read % 3){
                 case 0:
